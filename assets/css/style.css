@@ -1,0 +1,123 @@
+/** ======================== 
+         Assets
+
+Das placeholder-Attribut im Eingabefeld gibt Tipps zum Ausfüllen.
+Um CSS auf ein Formular anzuwenden, verwenden wir die Attributselektoren.
+========================== **/
+
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+
+    width: 1920px;
+    height: 1080px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    display: flex;
+    justify-content: column;
+    justify-content: space-around;
+    justify-content: center;
+    color: black;
+    font-size: 1.6rem;
+    background-color: yellow;
+
+
+
+}
+
+.contactus {
+    background-color: #04c793;
+    border: none;
+    color: white;
+    padding: 20px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 99%
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    height: 30%;
+    background-color: lightgrey;
+    justify-content: center;
+
+}
+
+
+
+
+
+.yourname {
+    width: 90%;
+    height: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 14px;
+
+
+}
+
+
+.email {
+    width: 90%;
+    text-align: left;
+    height: 3rem;
+    padding-left: 1rem;
+    margin: 5px
+}
+
+.message {
+    width: 90%;
+    text-align: left;
+    height: 1rem;
+    padding-left: 1rem;
+    height: 60px;
+    margin: 15px;
+    opacity: 50px;
+
+}
+
+
+.send {
+background-color: #04c793;
+border: none;
+color: white;
+padding: 15px 22rem;
+text-align: center;
+text-decoration: none;
+font-size: 1rem;
+margin-bottom: 30px;
+cursor: pointer;
+width: 54%;
+
+}
+
+
+
+.send:hover {
+
+    background-color: #04c793;
+    opacity: 0.6;
+    transition: 0.3s;  
+}
